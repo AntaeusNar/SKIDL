@@ -1,0 +1,4 @@
+.title 
+C1 N2 0 1uF
+R1 N1 N2 1kOhm
+V1 N1 0 PULSE(0V 5V 0s 0s 0s 1ms 2ms)
