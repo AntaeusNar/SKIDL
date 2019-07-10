@@ -52,9 +52,11 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
+settings_secret.py
+settings/
+migrations/
 
 # Flask stuff:
 instance/
@@ -108,14 +110,12 @@ virtualenv/
 # Pycharm
 .idea/
 
-
-# Project
-pins.json
-
 # Github
 .github/
 
-# Django
-settings_secret.py
-settings/
-migrations/
+# skidl stuff
+*.erc
+
+# Others
+*.log
+pins.json
