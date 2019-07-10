@@ -115,6 +115,7 @@ virtualenv/
 
 # skidl stuff
 *.erc
+*_lib_sklib.py
 
 # Others
 *.log
